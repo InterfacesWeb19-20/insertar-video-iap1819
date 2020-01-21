@@ -1,0 +1,38 @@
+.header{
+    background-color: blue;
+    height: 5em;
+}
+.pink{
+    background-color: hotpink;
+}
+.green{
+    background-color: darkseagreen;
+    height: 3em;
+}
+.blue{
+    background-color: cornflowerblue;
+    height: 6em;
+}
+.brown{
+    background-color: saddlebrown;
+    height: 2em;
+}
+
+@media screen and (min-width: 575px){
+    .blue{
+        height: 6em;
+    }
+    .brown{
+        height: 5em;
+    }
+}
+
+@media screen and (min-width: 767px){
+    .blue{
+        height: 23em;
+    }
+    .brown{
+        height: 20em;
+    }
+}
+
